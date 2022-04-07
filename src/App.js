@@ -1,14 +1,15 @@
 import './App.css';
-import React from "react";
-import Sidebar from './Sidebar'
+import React from 'react';
+import Sidebar from './Sidebar';
+import Chat from './Chat';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <h1>Lets Build Whatsapp</h1>
-      <div className="app__body">
+      <div className='app__body'>
         <Sidebar />
-        {/* Chat */}
+        <Chat />
       </div>
     </div>
   );
